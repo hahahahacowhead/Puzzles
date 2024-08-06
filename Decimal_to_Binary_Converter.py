@@ -8,7 +8,7 @@ length=len(list1)
 #print(list1,length)
 
 binary=0
-for i in range(-1,(-length-1),-1):#reads the list backwards to generate the binary
+for i in range(-1,(-length-1),-1):#reads the list backwards to generate the binary    or    list1.reverse() can be used and the for loop can have range from 0 to len(list1)
     binary=(binary*10)+list1[i]
 
 print("binary:",binary)
